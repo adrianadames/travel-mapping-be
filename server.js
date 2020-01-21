@@ -27,7 +27,7 @@ const middleware    = [ sentryRequest, helmetJs, corsJs,        // Middleware to
                         routes ];
 
 // Initialize Sentry.
-Sentry.init({ dsn: 'https://e085e65ac5a249988c866c5e21e2adaa@sentry.io/1811837' });
+Sentry.init({ dsn: 'https://2231b59408324f0b8b396351456788ab@sentry.io/1890562' });
 
 server.use(middleware);
 
