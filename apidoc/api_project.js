@@ -1,9 +1,9 @@
 define({
-  "name": "Piktorlog API Reference",
+  "name": "PiktorlogCopy API Reference",
   "version": "0.1.0",
-  "description": "This documentation describes the Piktorlog API.",
-  "title": "API | Piktorlog",
-  "url": "https://piktorlog.herokuapp.com",
+  "description": "This documentation describes the PiktorlogCopy API.",
+  "title": "API | PiktorlogCopy",
+  "url": "https://piktorlogcopy.herokuapp.com",
   "sampleUrl": false,
   "defaultVersion": "0.0.0",
   "apidoc": "0.3.0",

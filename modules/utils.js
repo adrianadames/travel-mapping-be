@@ -9,7 +9,7 @@ const getEnvironmentHost = (environment) => {
     case 'review':  return `https://piktorlogstaging-pr-${ process.env.PR_NUMBER || 0 }.herokuapp.com`;
     case 'staging': return 'https://piktorlogstaging.herokuapp.com';
     case 'production':
-    default: return 'https://piktorlog.herokuapp.com';
+    default: return 'https://piktorlogcopy.herokuapp.com';
   }
 
 };
