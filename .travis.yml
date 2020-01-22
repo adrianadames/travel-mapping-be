@@ -6,7 +6,7 @@ script:
   - npm test
 notifications:
   email:
-    - brandon.g.elzy@gmail.com
+    - adrianadames@gmail.com
   on_success: never
   on_failure: always
 env:
