@@ -29,21 +29,21 @@ describe('Testing the utils module functions', () => {
 
     });
 
-    it('should return https://piktorlog.herokuapp.com when production is passed', () => {
+    it('should return https://piktorlogcopy.herokuapp.com when production is passed', () => {
 
-      expect(utils.getEnvironmentHost('production')).to.equal('https://piktorlog.herokuapp.com');
-
-    });
-
-    it('should return https://piktorlog.herokuapp.com when a number is passed', () => {
-
-      expect(utils.getEnvironmentHost('production')).to.equal('https://piktorlog.herokuapp.com');
+      expect(utils.getEnvironmentHost('production')).to.equal('https://piktorlogcopy.herokuapp.com');
 
     });
 
-    it('should return https://piktorlog.herokuapp.com when an invalid environment is passed', () => {
+    it('should return https://piktorlogcopy.herokuapp.com when a number is passed', () => {
 
-      expect(utils.getEnvironmentHost('not valid')).to.equal('https://piktorlog.herokuapp.com');
+      expect(utils.getEnvironmentHost('production')).to.equal('https://piktorlogcopy.herokuapp.com');
+
+    });
+
+    it('should return https://piktorlogcopy.herokuapp.com when an invalid environment is passed', () => {
+
+      expect(utils.getEnvironmentHost('not valid')).to.equal('https://piktorlogcopy.herokuapp.com');
 
     });
 
