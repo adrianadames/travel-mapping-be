@@ -26,7 +26,7 @@ module.exports = {
   },
 
   production: {
-    origin: 'https://piktorlogcopy.netlify.com',
+    origin: 'https://piktorlogcopy.netlify.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     allowedHeaders: 'Content-Type,Authorization',
   },
